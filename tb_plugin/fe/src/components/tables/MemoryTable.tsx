@@ -58,6 +58,7 @@ const getMemoryTableRows = function (rows: any) {
     const res: any = {}
     row.forEach(function (entry: any) {
       res['col' + i++] = entry
+      console.log(entry)
     })
     return res
   })
